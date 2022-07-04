@@ -490,14 +490,15 @@ aside{
     cursor: pointer;
     border-radius: 40px;
   }
+  .icon2{
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+  }
   #back-to-top:hover{
     transform: scale(1.05);
     background-color: #7601c4;
   }
-  .icon2{
-    font-size: 35px;
-    color:rgb(255, 255, 255);
-  }
+  
 /*===============Rodapé================*/
 
 .C-rodapé{
