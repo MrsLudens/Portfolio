@@ -476,6 +476,23 @@ aside{
 
 
 }
+#audiobutton{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: rgba(5, 1, 8, 0.507);
+    background-color: rgba(0, 0, 0, 0.521);
+    border: none;
+    height: 50px;
+    padding: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+
+}.icon3{
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+  }
 
 #back-to-top {
     position: fixed;
