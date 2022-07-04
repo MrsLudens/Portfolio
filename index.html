@@ -17,11 +17,28 @@
 
         <audio src="telepathy.wav"></audio>
         <button id="audiobutton"><span class="icon3"><ion-icon name="play-outline"></ion-icon></span></button>
+        
         <script>
+            let playzinho=false;
             const button= document.querySelector('button')
             button.addEventListener('click', function(){
                 const audio = document.querySelector('audio')
-                audio.play()
+                var icon3 = document.getElementsByClassName('icon3')[0]
+                /*audio.play()0
+                button.addEventListener('click',function(){
+                    audio.pause();
+                })*/
+                if(playzinho == false)
+                {
+                    playzinho = true
+                    audio.play()
+                    icon3.innerHTML='<ion-icon name="pause-outline"></ion-icon>'
+
+                }else{
+                    icon3.innerHTML='<ion-icon name="play-outline"></ion-icon>'
+                    playzinho=false;
+                    audio.pause()
+                }
             })
 
             
