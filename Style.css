@@ -89,7 +89,7 @@ aside{
 .C-icon span:hover{
     transition: 0.2s;
     transform: 0.5;
-    color: #C229AA;
+    color: #9520c4b4;
 }
 
 
@@ -137,7 +137,8 @@ aside{
     margin-top: 80px;
     padding: 8px 5px;
     font-size: 20px;
-    background-color: #FE002D;
+    background-color: #c70303;
+    border: none;
     border-radius: 50px;
     color: #FBF7F7;
     font-family:"Inter" ;
@@ -147,8 +148,8 @@ aside{
 }
 
 .Button1 :hover{
-    border: solid 1px #fff;
-    transition: 0.7s;
+    transform: translate(0.9);
+    transition: 0.8s;
     background: transparent;
     
   
@@ -237,7 +238,7 @@ aside{
 }
 
 .Sobre-mim span{
-    color: #FD0BF3;
+    color: #c70303;
 }
 
 .Sobre-mim p{
@@ -247,7 +248,7 @@ aside{
 }
 
 .Button{
-    background-color: #EF0453;
+    background-color: #c70303;
     margin-left: 35%;
     margin-top: 30px;
     padding: 10px 50px;
@@ -262,7 +263,7 @@ aside{
 }
 
 .Button :hover{
-    color: #EF0453;
+    color: #9a11c4;
     transform: translate(0.9);
     transition: 0.8s;
     background: transparent;
@@ -418,6 +419,27 @@ aside{
 
 }
 
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: rgba(5, 1, 8, 0.507);
+    background-color: rgba(0, 0, 0, 0.521);
+    border: none;
+    height: 40px;
+    padding: 0 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 40px;
+  }
+  #back-to-top:hover{
+    transform: scale(1.05);
+    background-color: #7601c4;
+  }
+  .icon2{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+  }
 /*===============Rodapé================*/
 
 .C-rodapé{
