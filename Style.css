@@ -12,6 +12,9 @@
 }
 /*===============Dark and light mode============*/
 
+html{
+    scroll-behavior: smooth;
+}
   
   body.dark {
     background: #292c35;
